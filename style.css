@@ -26,12 +26,13 @@ button:hover {
 }
 
 .contact {
-  width: 100%;
+  width: 100vw;
+  margin: 0 auto;
   margin: 40px 16px;
 }
 .contact__inner {
-  min-width: 320px;
-  width: 100%;
+  min-width: 328px;
+  width: 100vw;
   padding: 24px 16px;
   background: #a5d757;
   margin-top: 40px;
@@ -77,9 +78,7 @@ button:hover {
   margin-bottom: 24px;
 }
 .form input[type='file'] {
-  opacity: 0;
-  position: absolute;
-  z-index: -1;
+  display: none;
 }
 
 .form__input-file {
