@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <section class="contact container">
+      <div class="contact__inner contact__inner-callback container-inner">
+        <div class="contact__form-inner">
+          <img src="./img/p.png" alt="" width="40" height="40" />
+          <h2 class="contact__form-inner_title">Мы перезвоним вам через 15 минут!</h2>
+          <p class="contact__form-inner_text">
+            Получи профессиональный расчет окон с помощью нашего специалиста!
+          </p>
+          <form class="contact__form form">
+            <input
+              type="text"
+              class="contact__form-input form__input"
+              name="phone"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="tel"
+              class="contact__form-input form__input"
+              placeholder="+380 (___) ____-___-___ *"
+            />
+            <button class="contact__form-button form-button button">отправить</button>
+          </form>
+        </div>
+      </div>
+      <div class="contact__inner contact__inner-calculate container-inner">
+        <div class="contact__form-inner">
+          <img src="./img/calculator-icon.png" alt="" width="32" height="40" />
+          <h2 class="contact__form-inner_title">Рассчитаем стоимость ваших окон за 5 минут</h2>
+          <p class="contact__form-inner_text">
+            Перезвоним за 15 минут и проконсультируем по всем вопросам
+          </p>
+          <form class="contact__form form">
+            <input
+              type="text"
+              class="contact__form-input form__input"
+              name="name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="tel"
+              class="contact__form-input form__input"
+              placeholder="+380 (___) ____-___-___ *"
+              name="phone"
+            />
+            <input
+              type="email"
+              class="contact__form-input form__input"
+              name="email"
+              placeholder="Ваше email"
+            />
+            <label for=""></label>
+            <input type="file" class="contact__form-input form__input" name="file" id="file" />
+            <label for="file" class="form__input-file">
+              <svg
+                width="15"
+                height="17"
+                viewBox="0 0 15 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.5"
+                  d="M1.46875 14.6562C3.28125 16.4688 6.21875 16.4688 8.03125 14.6562C9.71875 12.9688 12.4688 10.2188 14.1562 8.53125C14.3125 8.375 14.3125 8.15625 14.1562 8L13.625 7.46875C13.4688 7.3125 13.25 7.3125 13.0938 7.46875C11.4062 9.15625 8.65625 11.9062 6.96875 13.5938C5.75 14.8125 3.75 14.8125 2.53125 13.5938C1.3125 12.375 1.3125 10.375 2.53125 9.15625L9.5625 2.125C10.375 1.3125 11.6875 1.3125 12.5 2.125C13.3125 2.9375 13.3125 4.25 12.5 5.0625L6.59375 10.9688C6.1875 11.375 5.53125 11.375 5.125 10.9688C4.75 10.5938 4.75 9.9375 5.125 9.53125L10.1562 4.53125C10.3125 4.375 10.3125 4.15625 10.1562 4L9.625 3.46875C9.46875 3.3125 9.25 3.3125 9.09375 3.46875L4.09375 8.46875C3.09375 9.46875 3.09375 11.0625 4.09375 12.0312C5.0625 13.0312 6.65625 13.0312 7.625 12.0312L13.5625 6.125C14.9688 4.71875 14.9688 2.46875 13.5625 1.0625C12.1562 -0.34375 9.90625 -0.34375 8.5 1.0625L1.46875 8.09375C-0.34375 9.90625 -0.34375 12.8438 1.46875 14.6562Z"
+                  fill="black"
+                /></svg
+              >Прик. файл</label
+            >
+            <button class="contact__form-button form-button button">отправить</button>
+          </form>
+        </div>
+      </div>
+      <div class="contact__inner contact__inner-sizes container-inner">
+        <div class="contact__form-inner">
+          <img src="./img/p2.png" alt="" width="40" height="40" />
+          <h2 class="contact__form-inner_title">Вызвать замерщика бесплатно!</h2>
+          <form class="contact__form form">
+            <input
+              type="text"
+              class="contact__form-input form__input"
+              name="phone"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="tel"
+              class="contact__form-input form__input"
+              placeholder="+380 (___) ____-___-___ *"
+              name="tel"
+            />
+            <input
+              type="text"
+              class="contact__form-input form__input"
+              name="city"
+              placeholder="Город"
+            />
+            <input
+              type="text"
+              class="contact__form-input form__input"
+              name="street"
+              placeholder="Улица"
+            />
+            <input
+              type="text"
+              class="contact__form-input form__input"
+              name="house"
+              placeholder="Дом"
+            />
+            <input
+              type="text"
+              class="contact__form-input form__input"
+              name="flat"
+              placeholder="Кв."
+            />
+            <input type="text" placeholder="ДД/ММ" name="date" onfocus="(this.type='date')" />
+            <input
+              type="text"
+              name="time"
+              onfocus="(this.type='time')"
+              class="contact__form-input form__input"
+              placeholder="__ : __"
+            />
+
+            <button class="contact__form-button form-button button">отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
